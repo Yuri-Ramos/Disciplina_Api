@@ -23,5 +23,15 @@ public class HelloController {
     public String converter(@RequestParam String name) {
         return name.toUpperCase();
     }
+    // 
+     /**
+     * @param numero1
+     * @param numero2
+     * @return
+     */
+    @GetMapping("/soma");
+     public Integer soma (@RequestParam Integer numero1, @RequestParam Integer numero2){
+            return numero1 + numero2;
+     }
 
 }
