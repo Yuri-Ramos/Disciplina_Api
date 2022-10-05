@@ -8,30 +8,27 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/v1")
 public class HelloController {
-    
-    @GetMapping(value="/")
+
+    @GetMapping(value = "/")
     public String GetMetHodName() {
         return "Ola Mundo VsCode";
     }
 
-    @GetMapping(value="/resposta")
+    @GetMapping(value = "/resposta")
     public String resposta() {
         return "Oque está fazendo aqui meu caro amigo";
     }
 
-    @GetMapping(value="/converter")
+    @GetMapping(value = "/converter")
     public String converter(@RequestParam String name) {
         return name.toUpperCase();
     }
-    // 
-     /**
-     * @param numero1
-     * @param numero2
-     * @return
-     */
-    @GetMapping("/soma");
-     public Integer soma (@RequestParam Integer numero1, @RequestParam Integer numero2){
-            return numero1 + numero2;
-     }
+
+    // RECURSO DE SOMA
+
+    @GetMapping(value = "/soma")
+    public Double soma(@RequestParam Double num1, @RequestParam Double num2) {
+        return num1 + num2;
+    }
 
 }
