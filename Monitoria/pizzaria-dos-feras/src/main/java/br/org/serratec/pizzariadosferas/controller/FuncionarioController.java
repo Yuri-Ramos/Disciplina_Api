@@ -25,7 +25,7 @@ public class FuncionarioController {
 	public List<funcionario> obterTodos(){
 		return servico.obterTodos();
 	}
-	@GetMapping("/{id}")
+	@GetMapping("{id}")
 	public Optional<funcionario> obterPorId(@PathVariable Long id){
 		return servico.obterPorId();
 	}
@@ -37,7 +37,7 @@ public class FuncionarioController {
 	}
 	@PutMapping
 	public Funcionario atualizar(@PathVariable Long id, @RequestBody Funcionario funcionario) {
-		return servico.atualizar(id, funcionario)
+		return servico.atualizar(id, funcionario);
 				
 	}
 	@DeleteMapping("(id")		

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="aulas/Api/src"/>
+	<classpathentry kind="src" path="aulas/aula-03/src/main/java"/>
+	<classpathentry kind="src" path="aulas/aula-03/src/test/java"/>
+	<classpathentry kind="src" path="aulas/aula-4/src/main/java"/>
+	<classpathentry kind="src" path="aulas/aula-4/src/test/java"/>
+	<classpathentry kind="src" path="aulas/aula3-orm/src/main/java"/>
+	<classpathentry kind="src" path="aulas/aula3-orm/src/test/java"/>
+	<classpathentry kind="src" path="aulas/projeto-aula2/src/main/java"/>
+	<classpathentry kind="src" path="aulas/projeto-aula2/src/test/java"/>
+	<classpathentry kind="src" path="Monitoria/pizzaria-dos-feras/src/main/java"/>
+	<classpathentry kind="src" path="Monitoria/pizzaria-dos-feras/src/test/java"/>
+	<classpathentry kind="src" path="ola-mundo/src/main/java"/>
+	<classpathentry kind="src" path="ola-mundo/src/test/java"/>
+	<classpathentry kind="lib" path="aulas/aula-03/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="aulas/aula-4/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="aulas/aula3-orm/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="aulas/projeto-aula2/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="Monitoria/pizzaria-dos-feras/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="ola-mundo/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="output" path="Monitoria/pizzaria-dos-feras/target/classes"/>
+</classpath>
