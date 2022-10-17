@@ -21,6 +21,7 @@ public class FuncionarioController {
 	
 	private FuncionarioService servico;
 	
+	
 	@GetMapping
 	public List<funcionario> obterTodos(){
 		return servico.obterTodos();
